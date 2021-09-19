@@ -1,0 +1,42 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>convert Persian number to English number</title>
+</head>
+
+<body>
+    <main>
+        <div class="description">
+            <h3>Mini Challenge Easy</h3>
+            <div>Write a simple program to accept a Persian string and convert it
+                to English number.
+                Example:
+                <ul>
+                    <li>Input ۹۱ output 91</li>
+                    <li>nput Amene ۰۹۱۲۳۴۵۶۷۸۷۶ output 09213755310</li>
+                </ul>
+            </div>
+        </div>
+        <form id="form">
+            <div>
+                <label>Input number:
+                    <input id="number" pattern="[0-9][۰-۹]">
+                </label>
+                <button id="show" type="button">
+                    Show out put
+                </button>
+            </div>
+            <div id="output-container">
+                <p id="output-placeholder"></p>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
